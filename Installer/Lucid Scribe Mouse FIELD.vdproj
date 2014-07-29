@@ -45,14 +45,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_26BBFE7B7F194EFD9AFB4AC6A65E7F86"
+        "MsmKey" = "8:_259C38769A83461C8D0452994EBEFCFB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5A5DDDF939FAFDFE80F50F4CCB92A7D1"
-        "OwnerKey" = "8:_C96DB85DE33C46E197878F81254D9A7C"
+        "MsmKey" = "8:_26BBFE7B7F194EFD9AFB4AC6A65E7F86"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -159,6 +159,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FBF9907859C91C9457B3059E73FF5DF0"
+        "OwnerKey" = "8:_C96DB85DE33C46E197878F81254D9A7C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FC042D5D361F4681BB58B8723C070A5B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -178,7 +184,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5A5DDDF939FAFDFE80F50F4CCB92A7D1"
+        "OwnerKey" = "8:_FBF9907859C91C9457B3059E73FF5DF0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -392,6 +398,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_259C38769A83461C8D0452994EBEFCFB"
+            {
+            "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Mouse REM.lsd"
+            "TargetName" = "8:Mouse REM.lsd"
+            "Tag" = "8:"
+            "Folder" = "8:_1B2FE8151EBA43939D96E91633DFA1F4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_26BBFE7B7F194EFD9AFB4AC6A65E7F86"
             {
             "SourcePath" = "8:..\\Mouse Monitor\\Mouse Monitor.csproj"
@@ -410,37 +436,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5A5DDDF939FAFDFE80F50F4CCB92A7D1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:lucidcode.LucidScribe.Interface, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5A5DDDF939FAFDFE80F50F4CCB92A7D1"
-                    {
-                    "Name" = "8:lucidcode.LucidScribe.Interface.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:lucidcode.LucidScribe.Interface.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6392523A214041F38FD47587E9ECA81D"
@@ -754,6 +749,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FBF9907859C91C9457B3059E73FF5DF0"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:lucidcode.LucidScribe.Interface, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FBF9907859C91C9457B3059E73FF5DF0"
+                    {
+                    "Name" = "8:lucidcode.LucidScribe.Interface.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:lucidcode.LucidScribe.Interface.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC042D5D361F4681BB58B8723C070A5B"
             {
             "SourcePath" = "8:..\\Mouse FIELD\\Mouse FIELD.csproj"
@@ -902,6 +928,50 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_BE5FB63DEF21455D8619CF7DE384A543"
+            {
+            "Name" = "8:#1918"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:PersonalFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_7D82B02F3D5745C281495F1FD14940F9"
+                    {
+                    "Name" = "8:lucidcode"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_59AED2FCF9F446B9896F15CA620B1E3F"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_70D62F65CA524AA092E0736D25096B46"
+                            {
+                            "Name" = "8:Lucid Scribe"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_B68929F660DD4B358689AA96E2BE48C5"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_1B2FE8151EBA43939D96E91633DFA1F4"
+                                    {
+                                    "Name" = "8:Plugins"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_9739D1CCB1A74519974648901DAFBD03"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -918,14 +988,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Lucid Scribe Mouse FIELD"
-        "ProductCode" = "8:{D02FE7A0-5BB5-47F0-8486-F2D0E7DA8383}"
-        "PackageCode" = "8:{D0350715-094D-4106-9FC7-714B0288C007}"
+        "ProductCode" = "8:{0A7B2745-AF87-493B-950F-CF460C0BBB2D}"
+        "PackageCode" = "8:{82BBB490-7ECE-4C42-B619-E7C4B2A1D590}"
         "UpgradeCode" = "8:{A5735B7B-0732-4811-9C49-1D84403F8E5C}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.9"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:lucidcode"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://www.lucid-code.com/Support"
@@ -1449,7 +1519,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B9FAE417C76C40DEA35CA2FA287F5879"
             {
-            "SourcePath" = "8:..\\Mouse Monitor\\obj\\Release\\lucidcode.LucidScribe.Plugin.MouseMonitor.exe"
+            "SourcePath" = "8:..\\Mouse Monitor\\obj\\Debug\\lucidcode.LucidScribe.Plugin.MouseMonitor.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"
@@ -1477,7 +1547,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C96DB85DE33C46E197878F81254D9A7C"
             {
-            "SourcePath" = "8:..\\Mouse FIELD\\obj\\Release\\lucidcode.LucidScribe.Plugin.Mouse.dll"
+            "SourcePath" = "8:..\\Mouse FIELD\\obj\\Debug\\lucidcode.LucidScribe.Plugin.Mouse.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"

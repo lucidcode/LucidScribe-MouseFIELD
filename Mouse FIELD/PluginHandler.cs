@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace lucidcode.LucidScribe.Plugin.Mouse
 {
@@ -15,6 +16,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
     static int m_intLastY = -1;
     static double m_dblX;
     static double m_dblY;
+    static double m_dblTotal;
     static double m_dblB;
     static double m_dblFIELD;
     static double m_dblFCount;
@@ -94,6 +96,8 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
 
                 m_dblX += intDeltaX;
                 m_dblY += intDeltaY;
+
+                m_dblTotal += intDeltaX + intDeltaY;
 
                 m_intLastX = intX;
                 m_intLastY = intY;
@@ -188,6 +192,13 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
         m_dblFIELD = 0;
       }
       return m_dblFIELD;
+    }
+
+    public static Double GetTotal()
+    {
+      double dblValue = m_dblTotal;
+      m_dblTotal = 0;
+      return dblValue;
     }
 
   }
@@ -295,6 +306,56 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
           double dblValue = Device.GetY();
           if (dblValue > 999) { dblValue = 999; }
           return dblValue;
+        }
+      }
+      public override void Dispose()
+      {
+        Device.Dispose();
+      }
+    }
+  }
+
+  namespace REM
+  {
+    public class PluginHandler : lucidcode.LucidScribe.Interface.LucidPluginBase
+    {
+      List<int> History = new List<int>();
+      public override string Name
+      {
+        get { return "Mouse REM"; }
+      }
+      public override bool Initialize()
+      {
+        return Device.Initialize();
+      }
+      public override double Value
+      {
+        get
+        {
+          double total = Device.GetTotal();
+          if (total > 999) { total = 999; }
+          if (total < 0) { total = 0; }
+
+          History.Add(Convert.ToInt32(total));
+          if (History.Count > 256) { History.RemoveAt(0); }
+
+          // Check for eye movements
+          int movements = 0;
+          foreach (int value in History)
+          {
+            if (value >= 4)
+            {
+              movements += 1;
+            }
+          }
+
+          if (movements >= 8)
+          {
+            return 888;
+          }
+
+          if (movements > 10) { movements = 10; }
+          return movements * 100;
         }
       }
       public override void Dispose()
