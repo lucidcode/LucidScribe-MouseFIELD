@@ -4,6 +4,8 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Collections.Generic;
+using System.Windows.Forms;
+using System.Linq;
 
 namespace lucidcode.LucidScribe.Plugin.Mouse
 {
@@ -16,7 +18,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
     static int m_intLastY = -1;
     static double m_dblX;
     static double m_dblY;
-    static double m_dblTotal;
+    static int m_intTotal;
     static double m_dblB;
     static double m_dblFIELD;
     static double m_dblFCount;
@@ -97,7 +99,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
                 m_dblX += intDeltaX;
                 m_dblY += intDeltaY;
 
-                m_dblTotal += intDeltaX + intDeltaY;
+                m_intTotal += intDeltaX + intDeltaY;
 
                 m_intLastX = intX;
                 m_intLastY = intY;
@@ -194,11 +196,11 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
       return m_dblFIELD;
     }
 
-    public static Double GetTotal()
+    public static int GetTotal()
     {
-      double dblValue = m_dblTotal;
-      m_dblTotal = 0;
-      return dblValue;
+      int value = m_intTotal;
+      m_intTotal = 0;
+      return value;
     }
 
   }
@@ -363,6 +365,237 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
         Device.Dispose();
       }
     }
+  }
+
+  namespace TCMP
+  {
+    public class PluginHandler : lucidcode.LucidScribe.Interface.LucidPluginBase, lucidcode.LucidScribe.TCMP.ITransConsciousnessPlugin
+    {
+
+      public override string Name
+      {
+        get
+        {
+          return "Mouse TCMP";
+        }
+      }
+
+      public override bool Initialize()
+      {
+        try
+        {
+          return Device.Initialize();
+        }
+        catch (Exception ex)
+        {
+          throw (new Exception("The '" + Name + "' plugin failed to initialize: " + ex.Message));
+        }
+      }
+
+      private static String Morse = "";
+      Dictionary<char, String> Code = new Dictionary<char, String>()
+          {
+              {'A' , ".-"},
+              {'B' , "-..."},
+              {'C' , "-.-."},
+              {'D' , "-.."},
+              {'E' , "."},
+              {'F' , "..-."},
+              {'G' , "--."},
+              {'H' , "...."},
+              {'I' , ".."},
+              {'J' , ".---"},
+              {'K' , "-.-"},
+              {'L' , ".-.."},
+              {'M' , "--"},
+              {'N' , "-."},
+              {'O' , "---"},
+              {'P' , ".--."},
+              {'Q' , "--.-"},
+              {'R' , ".-."},
+              {'S' , "..."},
+              {'T' , "-"},
+              {'U' , "..-"},
+              {'V' , "...-"},
+              {'W' , ".--"},
+              {'X' , "-..-"},
+              {'Y' , "-.--"},
+              {'Z' , "--.."},
+              {'0' , "-----"},
+              {'1' , ".----"},
+              {'2' , "..----"},
+              {'3' , "...--"},
+              {'4' , "....-"},
+              {'5' , "....."},
+              {'6' , "-...."},
+              {'7' , "--..."},
+              {'8' , "---.."},
+              {'9' , "----."},
+          };
+
+      List<int> m_arrHistory = new List<int>();
+      Boolean FirstTick = false;
+      Boolean SpaceSent = true;
+      int TicksSinceSpace = 0;
+      Boolean Started = false;
+      int PreliminaryTicks = 0;
+
+
+      public override double Value
+      {
+        get
+        {
+          int tempValue = Device.GetTotal();
+          if (tempValue > 999) { tempValue = 999; }
+          if (tempValue < 0) { tempValue = 0; }
+
+          if (!Started)
+          {
+            PreliminaryTicks++;
+            if (PreliminaryTicks > 10)
+            {
+              Started = true;
+            }
+
+            return 0;
+          }
+
+          int signalLength = 0;
+          int dotHeight = 32;
+          int dashHeight = 100;
+
+          // Update the mem list
+          String signal = "";
+
+          if (!FirstTick && (tempValue > dotHeight))
+          {
+            m_arrHistory.Add(Convert.ToInt32(tempValue));
+          }
+
+          if (!FirstTick && m_arrHistory.Count > 0)
+          {
+            m_arrHistory.Add(Convert.ToInt32(tempValue));
+          }
+
+          if (FirstTick && (tempValue > dotHeight))
+          {
+            FirstTick = false;
+          }
+
+          if (!SpaceSent & m_arrHistory.Count == 0)
+          {
+            TicksSinceSpace++;
+            if (TicksSinceSpace > 32)
+            {
+              // Send the space key
+              Morse = " ";
+              SendKeys.Send(" ");
+              SpaceSent = true;
+              TicksSinceSpace = 0;
+            }
+          }
+
+          if (!FirstTick && m_arrHistory.Count > 32)
+          {
+            int nextOffset = 0;
+            do
+            {
+              int fivePointValue = 0;
+              for (int i = nextOffset; i < m_arrHistory.Count; i++)
+              {
+                for (int x = i; x < m_arrHistory.Count; x++)
+                {
+                  if (m_arrHistory[x] > fivePointValue)
+                  {
+                    fivePointValue = m_arrHistory[x];
+                  }
+
+                  if (m_arrHistory[x] < 8)
+                  {
+                    nextOffset = x + 1;
+                    break;
+                  }
+
+                  if (x == m_arrHistory.Count - 1)
+                  {
+                    nextOffset = -1;
+                  }
+                }
+
+                if (fivePointValue >= dashHeight)
+                {
+                  signal += "-";
+                  signalLength++;
+                  break;
+                }
+                else if (fivePointValue >= dotHeight)
+                {
+                  signal += ".";
+                  signalLength++;
+                  break;
+                }
+
+                if (i == m_arrHistory.Count - 1)
+                {
+                  nextOffset = -1;
+                }
+
+              }
+
+              if (nextOffset < 0 | nextOffset == m_arrHistory.Count)
+              {
+                break;
+              }
+
+            } while (true);
+
+            m_arrHistory.RemoveAt(0);
+
+            // Check if the signal is morse
+            try
+            {
+              // Make sure that we have a signal
+              if (signal != "")
+              {
+                var myValue = Code.First(x => x.Value == signal);
+                Morse = myValue.Key.ToString();
+                SendKeys.Send(myValue.Key.ToString());
+                signal = "";
+                m_arrHistory.Clear();
+                SpaceSent = false;
+                TicksSinceSpace = 0;
+              }
+            }
+            catch (Exception ex)
+            {
+              String err = ex.Message;
+            }
+          }
+
+          if (m_arrHistory.Count > 0)
+          { return 888; }
+
+          return 0;
+        }
+      }
+
+      string lucidcode.LucidScribe.TCMP.ITransConsciousnessPlugin.MorseCode
+      {
+        get
+        {
+          String temp = Morse;
+          Morse = "";
+          return temp;
+        }
+      }
+
+      public override void Dispose()
+      {
+        Device.Dispose();
+      }
+
+    }
+
   }
 
 }
