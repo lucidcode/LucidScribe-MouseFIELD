@@ -45,6 +45,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_19341AE33CAE4F0D91FAC6237505CE3B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_259C38769A83461C8D0452994EBEFCFB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -112,6 +118,12 @@
         "Entry"
         {
         "MsmKey" = "8:_ABAE264F721C43D1AFE27FAED6583E5D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B164AFE02CAF4E84B34EB572D00E13C5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -308,7 +320,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "Version" = "8:3.5.30729"
+                "FrameworkVersion" = "8:3.5.30729 "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -416,6 +428,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_19341AE33CAE4F0D91FAC6237505CE3B"
+            {
+            "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\FILD.lsd"
+            "TargetName" = "8:FILD.lsd"
+            "Tag" = "8:"
+            "Folder" = "8:_1B2FE8151EBA43939D96E91633DFA1F4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_259C38769A83461C8D0452994EBEFCFB"
             {
             "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Mouse REM.lsd"
@@ -463,11 +495,6 @@
             "AssemblyAsmDisplayName" = "8:lucidcode.LucidScribe.TCMP, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_2DFBE80B5735E09DFBFBD72B0461E241"
-                    {
-                    "Name" = "8:lucidcode.LucidScribe.TCMP.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:lucidcode.LucidScribe.TCMP.dll"
             "TargetName" = "8:"
@@ -678,6 +705,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B164AFE02CAF4E84B34EB572D00E13C5"
+            {
+            "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Button TCMP.lsd"
+            "TargetName" = "8:Button TCMP.lsd"
+            "Tag" = "8:"
+            "Folder" = "8:_1B2FE8151EBA43939D96E91633DFA1F4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BAF921B90619451B9D2C0F57465130B4"
             {
             "SourcePath" = "8:..\\Mouse Monitor\\Properties\\AssemblyInfo.cs"
@@ -825,11 +872,6 @@
             "AssemblyAsmDisplayName" = "8:lucidcode.LucidScribe.Interface, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_FBF9907859C91C9457B3059E73FF5DF0"
-                    {
-                    "Name" = "8:lucidcode.LucidScribe.Interface.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:lucidcode.LucidScribe.Interface.dll"
             "TargetName" = "8:"
@@ -1057,14 +1099,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Lucid Scribe Mouse FIELD"
-        "ProductCode" = "8:{43607253-5C0C-441E-8F02-8E7334CC865F}"
-        "PackageCode" = "8:{B807245D-3046-4672-A2DC-1AA3DA3F6FAA}"
+        "ProductCode" = "8:{DDE2F692-4CB1-480D-9A8D-8743E579E8B3}"
+        "PackageCode" = "8:{9A169611-4429-456F-917F-636154CE358E}"
         "UpgradeCode" = "8:{A5735B7B-0732-4811-9C49-1D84403F8E5C}"
+        "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.1.1"
+        "ProductVersion" = "8:1.1.2"
         "Manufacturer" = "8:lucidcode"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://www.lucid-code.com/Support"

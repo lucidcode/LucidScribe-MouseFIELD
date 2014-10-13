@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouse FIELD", "Mouse FIELD\Mouse FIELD.csproj", "{27184B6A-ECEA-4C92-9F0F-E086792CD337}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouse Monitor", "Mouse Monitor\Mouse Monitor.csproj", "{CD2AA94D-DAC1-4FBF-9F14-EB581927033D}"
