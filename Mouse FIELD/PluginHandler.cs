@@ -172,6 +172,13 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
       if (m_dblB > 0)
       {
         m_dblB += 1;
+
+        // Jump to show dashes for TCMP
+        if (m_dblB > 220 & m_dblB < 320)
+        {
+          m_dblB = 320;
+        }
+
         if (m_dblB > 800)
         {
           m_dblB = 800;
@@ -693,7 +700,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
 
           int signalLength = 0;
           int dotHeight = 200;
-          int dashHeight = 205;
+          int dashHeight = 320;
 
           // Update the mem list
           String signal = "";
@@ -726,7 +733,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
             }
           }
 
-          if (!FirstTick && m_arrHistory.Count > 32)
+          if (!FirstTick && m_arrHistory.Count > 96)
           {
             int nextOffset = 0;
             do
