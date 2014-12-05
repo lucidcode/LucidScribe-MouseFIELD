@@ -22,6 +22,7 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
     static double m_dblB;
     static double m_dblFIELD;
     static double m_dblFCount;
+    static int fild;
     static Boolean m_boolFirstRun = false;
     static Boolean m_boolCountdown = false;
     static Thread m_objMouseTimer;
@@ -103,6 +104,16 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
 
                 m_intLastX = intX;
                 m_intLastY = intY;
+
+                fild++;
+                if (intDeltaX > 0 | intDeltaY > 0)
+                {
+                  fild = 0;
+                }
+                if (fild > 800)
+                {
+                  fild = 888;
+                }
 
                 if (intB == 0)
                 {
@@ -203,6 +214,11 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
       return m_dblFIELD;
     }
 
+    public static Double GetFILD()
+    {
+      return fild;
+    }
+
     public static int GetTotal()
     {
       int value = m_intTotal;
@@ -259,6 +275,32 @@ namespace lucidcode.LucidScribe.Plugin.Mouse
           double dblValue = Device.GetFIELD();
           if (dblValue > 999) { dblValue = 999; }
           return dblValue;
+        }
+      }
+      public override void Dispose()
+      {
+        Device.Dispose();
+      }
+    }
+  }
+
+  namespace FILDREM
+  {
+    public class PluginHandler : lucidcode.LucidScribe.Interface.LucidPluginBase
+    {
+      public override string Name
+      {
+        get { return "FILD REM"; }
+      }
+      public override bool Initialize()
+      {
+        return Device.Initialize();
+      }
+      public override double Value
+      {
+        get
+        {
+          return Device.GetFILD();
         }
       }
       public override void Dispose()
