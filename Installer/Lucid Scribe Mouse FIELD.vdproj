@@ -15,67 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_02DB776E003C4A579BFA91FE7FE4C835"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_03C29085EE9A460EA4A87FD3177E3CB9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0D1CB7E3443A4A0EA0782806A18286AA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_13952D0998FD4C8C92E8054340514A31"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_180718F99B6A4551835CD30FEE36EA3B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_259C38769A83461C8D0452994EBEFCFB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_26BBFE7B7F194EFD9AFB4AC6A65E7F86"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6392523A214041F38FD47587E9ECA81D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_70A22AC2CBAF47079D355712DF8E88EA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_746883D1DF3D41AB81A24AEADB60DA5D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7B1FB83ABEEA4AB59663C1AECE9E0561"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -87,18 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8EDD050120E34D1D9463135FB5D2193A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A42C853BFF4146719B92031B5537A0CC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_A4E8854C18A44CE2AAE782E88DE6E2C4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -106,12 +34,6 @@
         "Entry"
         {
         "MsmKey" = "8:_A50AD2CB84BC4354A0FBDE7F0519C9CC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ABAE264F721C43D1AFE27FAED6583E5D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -129,31 +51,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BAF921B90619451B9D2C0F57465130B4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BD363D6CD727429FA3BD2D2CF63628C0"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C8542EF5D9F1439F91A77D520827023F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C96DB85DE33C46E197878F81254D9A7C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D85193E0237F42F9BC0DFF23F49C6522"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -165,38 +63,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DEFF351AB7DC4A0E8868C96EB6B18BD4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DF7B9A3F1EE848C2BB8B7255884D8DD4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F40B0B40126BF0FEF64EF70F21671DDE"
         "OwnerKey" = "8:_C96DB85DE33C46E197878F81254D9A7C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FC042D5D361F4681BB58B8723C070A5B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C96DB85DE33C46E197878F81254D9A7C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_ABAE264F721C43D1AFE27FAED6583E5D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -322,212 +196,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_02DB776E003C4A579BFA91FE7FE4C835"
-            {
-            "SourcePath" = "8:Lucid Scribe.ico"
-            "TargetName" = "8:Lucid Scribe.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_4263FC9D55F546209DF40B574C418A7C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03C29085EE9A460EA4A87FD3177E3CB9"
-            {
-            "SourcePath" = "8:..\\Lucid Scribe - Mouse FIELD.sln"
-            "TargetName" = "8:Lucid Scribe - Mouse FIELD.sln"
-            "Tag" = "8:"
-            "Folder" = "8:_D9EF537875434DDB9C62AA19D562B827"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0D1CB7E3443A4A0EA0782806A18286AA"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Properties\\Resources.resx"
-            "TargetName" = "8:Resources.resx"
-            "Tag" = "8:"
-            "Folder" = "8:_84760228EA6A4385846EBA7053F8BB2B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13952D0998FD4C8C92E8054340514A31"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Program.cs"
-            "TargetName" = "8:Program.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_180718F99B6A4551835CD30FEE36EA3B"
-            {
-            "SourcePath" = "8:..\\Mouse FIELD\\PluginHandler.cs"
-            "TargetName" = "8:PluginHandler.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_10C961F42ED04FD989F71E6814D7EDD9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_259C38769A83461C8D0452994EBEFCFB"
             {
             "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Mouse REM.lsd"
             "TargetName" = "8:Mouse REM.lsd"
             "Tag" = "8:"
             "Folder" = "8:_1B2FE8151EBA43939D96E91633DFA1F4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_26BBFE7B7F194EFD9AFB4AC6A65E7F86"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Mouse Monitor.csproj"
-            "TargetName" = "8:Mouse Monitor.csproj"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6392523A214041F38FD47587E9ECA81D"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\MouseWatcher.cs"
-            "TargetName" = "8:MouseWatcher.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_70A22AC2CBAF47079D355712DF8E88EA"
-            {
-            "SourcePath" = "8:Lucid Scribe.ico"
-            "TargetName" = "8:Lucid Scribe.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_746883D1DF3D41AB81A24AEADB60DA5D"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\MainForm.cs"
-            "TargetName" = "8:MainForm.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7B1FB83ABEEA4AB59663C1AECE9E0561"
-            {
-            "SourcePath" = "8:..\\Mouse FIELD\\Properties\\AssemblyInfo.cs"
-            "TargetName" = "8:AssemblyInfo.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_4331B595C7FC413190B1D248177CBAD9"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -573,46 +247,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8EDD050120E34D1D9463135FB5D2193A"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Properties\\Resources.Designer.cs"
-            "TargetName" = "8:Resources.Designer.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_84760228EA6A4385846EBA7053F8BB2B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A42C853BFF4146719B92031B5537A0CC"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\MainForm.Designer.cs"
-            "TargetName" = "8:MainForm.Designer.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A4E8854C18A44CE2AAE782E88DE6E2C4"
             {
             "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Mouse TCMP.lsd"
@@ -653,37 +287,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ABAE264F721C43D1AFE27FAED6583E5D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:lucidcode.LucidScribe.Interface, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_ABAE264F721C43D1AFE27FAED6583E5D"
-                    {
-                    "Name" = "8:lucidcode.LucidScribe.Interface.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Mouse FIELD\\Dependencies\\lucidcode.LucidScribe.Interface.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_627B1DC08DF84354A42AC26623CFCA5B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B164AFE02CAF4E84B34EB572D00E13C5"
             {
             "SourcePath" = "8:..\\Mouse FIELD\\Plugins\\Button TCMP.lsd"
@@ -704,132 +307,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BAF921B90619451B9D2C0F57465130B4"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Properties\\AssemblyInfo.cs"
-            "TargetName" = "8:AssemblyInfo.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_84760228EA6A4385846EBA7053F8BB2B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD363D6CD727429FA3BD2D2CF63628C0"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Properties\\Settings.Designer.cs"
-            "TargetName" = "8:Settings.Designer.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_84760228EA6A4385846EBA7053F8BB2B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C8542EF5D9F1439F91A77D520827023F"
-            {
-            "SourcePath" = "8:Logo.jpg"
-            "TargetName" = "8:Logo.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_4263FC9D55F546209DF40B574C418A7C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D85193E0237F42F9BC0DFF23F49C6522"
-            {
-            "SourcePath" = "8:Lucid Scribe Mouse FIELD.vdproj"
-            "TargetName" = "8:Lucid Scribe Mouse FIELD.vdproj"
-            "Tag" = "8:"
-            "Folder" = "8:_4263FC9D55F546209DF40B574C418A7C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB5EDEF8D7884AC1BD93265A814D5B33"
             {
             "SourcePath" = "8:Lucid Scribe.ico"
             "TargetName" = "8:Lucid Scribe.ico"
             "Tag" = "8:"
             "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DEFF351AB7DC4A0E8868C96EB6B18BD4"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\Properties\\Settings.settings"
-            "TargetName" = "8:Settings.settings"
-            "Tag" = "8:"
-            "Folder" = "8:_84760228EA6A4385846EBA7053F8BB2B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF7B9A3F1EE848C2BB8B7255884D8DD4"
-            {
-            "SourcePath" = "8:..\\Mouse Monitor\\MainForm.resx"
-            "TargetName" = "8:MainForm.resx"
-            "Tag" = "8:"
-            "Folder" = "8:_AC04BEACD84548FC90612491326C53B5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -875,26 +358,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC042D5D361F4681BB58B8723C070A5B"
-            {
-            "SourcePath" = "8:..\\Mouse FIELD\\Mouse FIELD.csproj"
-            "TargetName" = "8:Mouse FIELD.csproj"
-            "Tag" = "8:"
-            "Folder" = "8:_10C961F42ED04FD989F71E6814D7EDD9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -911,94 +374,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_CA4CFA1BC13F46788E5737911D1EF7DD"
-                    {
-                    "Name" = "8:Source Code"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_0423563E2DC04E3D8C2CF54526CE1E23"
-                        "Folders"
-                        {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D9EF537875434DDB9C62AA19D562B827"
-                            {
-                            "Name" = "8:Mouse FIELD"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_991FCC10449C44298BC601CB01EF51C2"
-                                "Folders"
-                                {
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_10C961F42ED04FD989F71E6814D7EDD9"
-                                    {
-                                    "Name" = "8:Mouse FIELD"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_2063A6E813954607BB05FC773FD8FD13"
-                                        "Folders"
-                                        {
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_4331B595C7FC413190B1D248177CBAD9"
-                                            {
-                                            "Name" = "8:Properties"
-                                            "AlwaysCreate" = "11:FALSE"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "Property" = "8:_4FFF25EAC4D8440AB4AC94EAF4DAB590"
-                                                "Folders"
-                                                {
-                                                }
-                                            }
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_627B1DC08DF84354A42AC26623CFCA5B"
-                                            {
-                                            "Name" = "8:Dependencies"
-                                            "AlwaysCreate" = "11:FALSE"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "Property" = "8:_D325E271B8AA4CCDA9F5C27825C46992"
-                                                "Folders"
-                                                {
-                                                }
-                                            }
-                                        }
-                                    }
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_4263FC9D55F546209DF40B574C418A7C"
-                                    {
-                                    "Name" = "8:Installer"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_B7D5C035EA63424298BB7381B3F2D364"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_AC04BEACD84548FC90612491326C53B5"
-                                    {
-                                    "Name" = "8:Mouse Monitor"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_7E5DE8317B8A4875AEDB6541675359A4"
-                                        "Folders"
-                                        {
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_84760228EA6A4385846EBA7053F8BB2B"
-                                            {
-                                            "Name" = "8:Properties"
-                                            "AlwaysCreate" = "11:FALSE"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "Property" = "8:_90F3EB282EDF4413A4D1325AA2ED591C"
-                                                "Folders"
-                                                {
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_A2F28EF5FAB74BE09C08AB99DF7B5D8E"
@@ -1084,7 +459,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Lucid Scribe Mouse FIELD"
         "ProductCode" = "8:{2BED775B-9BAA-4156-9732-426CCC1DDBF6}"
-        "PackageCode" = "8:{3CCC1210-EB8E-46E4-9746-BF4EDD31C1FE}"
+        "PackageCode" = "8:{E4B16997-DFBB-4449-83D7-1552B6A58F9A}"
         "UpgradeCode" = "8:{A5735B7B-0732-4811-9C49-1D84403F8E5C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
